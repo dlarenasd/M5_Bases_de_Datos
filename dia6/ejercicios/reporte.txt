@@ -1,0 +1,30 @@
+● Reporta aquellas cuentas cuyo balance sea mayor a 2000.
+select numero_cuenta from cuentas where balance > 2000;
+ numero_cuenta
+---------------
+            3
+            4
+            6
+            9 
+
+● Reporta cuántas tienen un balance inferior a 1000.
+select numero_cuenta from cuentas where balance < 1000;
+  numero_cuenta
+---------------
+            1
+            5
+            7
+            8
+            10
+
+ ● Reporta el promedio total de las cuentas registradas según su balance.
+select AVG(balance) as promedio_total from cuentas;
+  promedio_total
+----------------
+    4755 
+
+ ● Reporta el promedio de cuentas cuyo balance sea mayor o igual a 10000.
+select avg(balance) as promedio from cuentas where balance >= 10000;
+   promedio 
+----------
+    16000   
