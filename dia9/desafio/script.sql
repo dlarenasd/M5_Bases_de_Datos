@@ -14,7 +14,7 @@ r.id_pelicula = p.id
 where p.pelicula = 'Titanic';
 /*
 actor            |
------------------+
+-----------------+	
 Leonardo DiCaprio|
 Kate Winslet     |
 Billy Zane       |
