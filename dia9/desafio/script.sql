@@ -42,7 +42,7 @@ cantidad_peliculas|
 
 -- 6. Indicar las películas estrenadas entre los años 1990 y 1999 ordenadas por título de manera ascendente. (1 punto)
 select p.pelicula from peliculas p 
-where p.anio_estreno >= 1990 and p.anio_estreno < 2000
+where p.anio_estreno >= 1990 and p.anio_estreno < 2000 --where p.anio estreno between 1990 and 1999...
 order by p.pelicula asc;
 
 /*
